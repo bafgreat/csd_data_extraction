@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "csd-data-extraction"
+version = "0.1.0"
+description = ""
+authors = ["bafgreat <75862753+bafgreat@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "csd_data_extraction"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
